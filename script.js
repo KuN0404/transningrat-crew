@@ -6,7 +6,7 @@ form.addEventListener("submit", async (e) => {
 
   const confirm = await Swal.fire({
     title: "Apakah Anda yakin?",
-    text: "Data akan dikirim ke Google Sheet!",
+    text: "Data akan dikirim!",
     icon: "question",
     showCancelButton: true,
     confirmButtonText: "Ya, kirim",
