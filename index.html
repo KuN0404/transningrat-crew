@@ -3,17 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
@@ -23,15 +14,7 @@
     <!-- Background image layer -->
     <div
       class="position-fixed top-0 start-0 w-100 h-100"
-      style="
-        background-image: url('background.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        z-index: 0;
-        filter: brightness(0.5); /* bikin agak gelap */
-      "
-    ></div>
+      style="background-image: url('background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; z-index: 0; filter: brightness(0.5); /* bikin agak gelap */"></div>
 
     <!-- Form Container -->
     <div class="container py-5 position-relative z-1">
@@ -39,77 +22,34 @@
         <div class="card-body p-5">
           <h2 class="mb-4 fw-semibold text-center">Ningrat Trans Crew</h2>
           <form id="contactForm" class="row g-4">
-            <!-- Email -->
-            <div class="col-md-6">
-              <div class="form-floating">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  placeholder="Masukan Email"
-                  required
-                />
-                <label for="email">Email</label>
-              </div>
-            </div>
-
             <!-- Driver -->
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="driver"
-                  name="driver"
-                  placeholder="Nama Pengemudi"
-                  required
-                />
+                <input type="text" class="form-control" id="driver" name="driver" placeholder="Nama Pengemudi" required />
                 <label for="driver">Driver</label>
-              </div>
-            </div>
-
-            <!-- Tujuan -->
-            <div class="col-md-6">
-              <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="tujuan"
-                  name="tujuan"
-                  placeholder="Lokasi Tujuan"
-                  required
-                />
-                <label for="tujuan">Tujuan</label>
               </div>
             </div>
 
             <!-- Penjemputan -->
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="penjemputan"
-                  name="penjemputan"
-                  placeholder="Lokasi Penjemputan"
-                  required
-                />
+                <input type="text" class="form-control" id="penjemputan" name="penjemputan" placeholder="Lokasi Penjemputan" required />
                 <label for="penjemputan">Penjemputan</label>
+              </div>
+            </div>
+
+            <!-- Tujuan -->
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="tujuan" name="tujuan" placeholder="Lokasi Tujuan" required />
+                <label for="tujuan">Tujuan</label>
               </div>
             </div>
 
             <!-- Uang Jalan -->
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="uangJalan"
-                  name="uang_jalan"
-                  placeholder="Uang Jalan"
-                  required
-                />
+                <input type="text" class="form-control" id="uangJalan" name="uang_jalan" placeholder="Uang Jalan" required />
                 <label for="uangJalan">Uang Jalan</label>
               </div>
             </div>
@@ -117,70 +57,35 @@
             <!-- BBM 1–5 -->
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="bbm1"
-                  name="bbm_1"
-                  placeholder="BBM 1"
-                  required
-                />
+                <input type="text" class="form-control" id="bbm1" name="bbm_1" placeholder="BBM 1" required />
                 <label for="bbm1">BBM 1</label>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="bbm2"
-                  name="bbm_2"
-                  placeholder="BBM 2"
-                  required
-                />
+                <input type="text" class="form-control" id="bbm2" name="bbm_2" placeholder="BBM 2" required />
                 <label for="bbm2">BBM 2</label>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="bbm3"
-                  name="bbm_3"
-                  placeholder="BBM 3"
-                  required
-                />
+                <input type="text" class="form-control" id="bbm3" name="bbm_3" placeholder="BBM 3" required />
                 <label for="bbm3">BBM 3</label>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="bbm4"
-                  name="bbm_4"
-                  placeholder="BBM 4"
-                  required
-                />
+                <input type="text" class="form-control" id="bbm4" name="bbm_4" placeholder="BBM 4" required />
                 <label for="bbm4">BBM 4</label>
               </div>
             </div>
 
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="bbm5"
-                  name="bbm_5"
-                  placeholder="BBM 5"
-                  required
-                />
+                <input type="text" class="form-control" id="bbm5" name="bbm_5" placeholder="BBM 5" required />
                 <label for="bbm5">BBM 5</label>
               </div>
             </div>
@@ -188,14 +93,7 @@
             <!-- Tol -->
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="tol"
-                  name="tol"
-                  placeholder="Nominal Tol"
-                  required
-                />
+                <input type="text" class="form-control" id="tol" name="tol" placeholder="Nominal Tol" required />
                 <label for="tol">Tol</label>
               </div>
             </div>
@@ -203,29 +101,15 @@
             <!-- Uang Makan -->
             <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="uangMakan"
-                  name="uang_makan"
-                  placeholder="Uang Makan"
-                  required
-                />
+                <input type="text" class="form-control" id="uangMakan" name="uang_makan" placeholder="Uang Makan" required />
                 <label for="uangMakan">Uang Makan</label>
               </div>
             </div>
 
             <!-- Uang Cuci -->
-            <div class="col-12">
+            <div class="col-md-6">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="uangCuci"
-                  name="uang_cuci"
-                  placeholder="Uang Cuci"
-                  required
-                />
+                <input type="text" class="form-control" id="uangCuci" name="uang_cuci" placeholder="Uang Cuci" required />
                 <label for="uangCuci">Uang Cuci</label>
               </div>
             </div>
@@ -233,14 +117,7 @@
             <!-- Catatan -->
             <div class="col-12">
               <div class="form-floating">
-                <textarea
-                  class="form-control"
-                  id="catatan"
-                  name="catatan"
-                  placeholder="Catatan"
-                  style="height: 120px"
-                  required
-                ></textarea>
+                <textarea class="form-control" id="catatan" name="catatan" placeholder="Catatan" style="height: 120px" required></textarea>
                 <label for="catatan">Catatan</label>
               </div>
             </div>
@@ -248,50 +125,26 @@
             <!-- Total -->
             <div class="col-md-4">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="totalPemasukan"
-                  name="total_pemasukan"
-                  placeholder="Total Pemasukan"
-                />
+                <input type="text" class="form-control" id="totalPemasukan" name="total_pemasukan" placeholder="Total Pemasukan" />
                 <label for="totalPemasukan">Total Pemasukan</label>
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="totalPengeluaran"
-                  name="total_pengeluaran"
-                  placeholder="Total Pengeluaran"
-                />
+                <input type="text" class="form-control" id="totalPengeluaran" name="total_pengeluaran" placeholder="Total Pengeluaran" />
                 <label for="totalPengeluaran">Total Pengeluaran</label>
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-floating">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="totalBersih"
-                  name="total_bersih"
-                  placeholder="Total Bersih"
-                />
+                <input type="text" class="form-control" id="totalBersih" name="total_bersih" placeholder="Total Bersih" />
                 <label for="totalBersih">Total Bersih</label>
               </div>
             </div>
 
             <!-- Submit -->
             <div class="col-12 d-grid mt-4">
-              <button
-                type="submit"
-                id="submitButton"
-                class="btn btn-primary btn-lg rounded-pill shadow-sm"
-              >
-                Kirim Form
-              </button>
+              <button type="submit" id="submitButton" class="btn btn-primary btn-lg rounded-pill shadow-sm">Kirim Form</button>
             </div>
           </form>
         </div>
@@ -299,15 +152,7 @@
     </div>
 
     <script src="script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
-      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
   </body>
 </html>
